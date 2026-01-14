@@ -23,50 +23,68 @@ body {
 
 .container {
     max-width: 600px;
-    padding: 40px 20px;
+    padding: 50px 20px;
     text-align: center;
 }
 
+/* LOGO */
+.logo {
+    width: 160px;
+    margin-bottom: 25px;
+    border-radius: 18px;
+}
+
+/* TITLE */
 h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 3em;
-    margin-bottom: 10px;
+    font-size: 2.8em;
+    margin-bottom: 8px;
 }
 
 .subtitle {
-    font-size: 1.1em;
+    font-size: 1.05em;
     margin-bottom: 40px;
     color: #7b6a62;
 }
 
+/* CARD */
 .card {
     background: #ffffff;
-    border-radius: 20px;
-    padding: 30px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    border-radius: 22px;
+    padding: 32px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.06);
     margin-bottom: 30px;
 }
 
+.card p {
+    font-size: 0.95em;
+    line-height: 1.7;
+}
+
+/* BUTTONS */
 .button {
     display: block;
     background: #e8c4b8;
     color: #4b3f3a;
     text-decoration: none;
     padding: 15px;
-    border-radius: 12px;
+    border-radius: 14px;
     font-weight: 600;
     margin: 15px 0;
-    transition: 0.2s;
+    transition: all 0.25s ease;
 }
 
 .button:hover {
     background: #ddb0a3;
+    transform: translateY(-2px);
 }
 
+/* FOOTER */
 .footer {
     font-size: 0.8em;
     color: #8d7b73;
     margin-top: 40px;
+    line-height: 1.6;
 }
 </style>
 </head>
@@ -74,7 +92,15 @@ h1 {
 <body>
 <div class="container">
 
+<!-- LOGO IMAGE -->
+<img 
+  src="Study-With-Lili-logo.png" 
+  alt="Study With Lili logo" 
+  class="logo"
+/>
+
 <h1>Study With Lili</h1>
+
 <div class="subtitle">
 Aesthetic planners & study tools for organized students ✨
 </div>
@@ -85,14 +111,23 @@ Hi, I’m Lili!
 I share cute digital planners and my favorite study tools to help students stay organized, productive, and stress-free 💕
 </p>
 
-<!-- Replace these links with your actual URLs -->
-<a href="https://gumroad.com/YOUR_REAL_GUMROAD_LINK" class="button" target="_blank">📓 My Study Planners</a>
-<a href="https://www.amazon.com/YOUR_REAL_AMAZON_LINK" class="button" target="_blank">🛒 My Favorite Study Tools</a>
-<a href="https://www.pinterest.com/studywlili" class="button" target="_blank">📌 Follow me on Pinterest</a>
+<!-- Replace links with your real URLs -->
+<a href="https://gumroad.com/YOUR_REAL_GUMROAD_LINK" class="button" target="_blank">
+📓 My Study Planners
+</a>
+
+<a href="https://www.amazon.com/YOUR_REAL_AMAZON_LINK" class="button" target="_blank">
+🛒 My Favorite Study Tools
+</a>
+
+<a href="https://www.pinterest.com/studywlili" class="button" target="_blank">
+📌 Follow me on Pinterest
+</a>
 </div>
 
 <div class="footer">
-Some links on this page are affiliate links. I may earn a small commission if you make a purchase at no extra cost to you.
+Some links on this page are affiliate links.  
+I may earn a small commission at no extra cost to you.
 </div>
 
 <!-- Invisible character to force rebuild -->
