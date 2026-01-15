@@ -19,14 +19,16 @@ body {
 
 .container {
     max-width: 600px;
-    padding: 40px 20px;
+    padding: 50px 20px;
     text-align: center;
 }
 
-/* LOGO */
+/* LOGO — larger & seamless */
 .logo {
-    width: 120px;
-    margin-bottom: 20px;
+    width: 220px;              /* BIGGER */
+    margin-bottom: 35px;
+    opacity: 0.98;
+    filter: drop-shadow(0 8px 18px rgba(0,0,0,0.07));
 }
 
 /* TITLE */
@@ -39,16 +41,16 @@ h1 {
 /* SUBTITLE */
 .subtitle {
     font-size: 1.1em;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
     color: #7b6a62;
 }
 
 /* CARD */
 .card {
     background: #ffffff;
-    border-radius: 20px;
-    padding: 30px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    border-radius: 22px;
+    padding: 32px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.06);
     margin-bottom: 30px;
 }
 
@@ -58,22 +60,24 @@ h1 {
     background: #e8c4b8;
     color: #4b3f3a;
     text-decoration: none;
-    padding: 15px;
-    border-radius: 12px;
+    padding: 16px;
+    border-radius: 14px;
     font-weight: 600;
-    margin: 15px 0;
-    transition: background 0.2s ease;
+    margin: 16px 0;
+    transition: all 0.2s ease;
 }
 
 .button:hover {
     background: #ddb0a3;
+    transform: translateY(-1px);
 }
 
 /* FOOTER */
 .footer {
     font-size: 0.8em;
     color: #8d7b73;
-    margin-top: 40px;
+    margin-top: 45px;
+    line-height: 1.5;
 }
 </style>
 </head>
@@ -117,4 +121,6 @@ commission if you make a purchase at no extra cost to you.
 </div>
 </body>
 </html>
+
+
 
